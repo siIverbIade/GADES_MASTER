@@ -1,7 +1,7 @@
 <?php
 
-include 'acoplado.php';
-require 'rb.php';
+require 'src/database/rb.php';
+require_once 'vendor/autoload.php';
 
 $uri = 'localhost';
 $escola = 'escola';
