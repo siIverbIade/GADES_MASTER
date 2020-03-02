@@ -1,4 +1,5 @@
 <?php
+namespace App\model;
 class NestedEntities
 {
     private int $indice = 0;
