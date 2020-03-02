@@ -26,5 +26,5 @@ if (!R::testConnection()) {
 $databaseObject = json_decode(file_get_contents('php://input'), true);
 //print_r($databaseObject);
 //print_r($databaseObject['book']);
-$abc = new NestedEntities();
+$abc = new \App\model\NestedEntities();
 $abc->parseFields($databaseObject);
